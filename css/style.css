@@ -211,7 +211,16 @@ button.btn-contact {
   border: 1px solid transparent;
   border-radius: 0.25rem;
 }
-
+#afterMsg{
+  display: none;
+  width: 80%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin: 25px 25px;
+  border-radius: 10px;
+  background-color: rgb(211, 250, 153);
+}
 @media(max-width: 568px) {
   .form-mid {
     padding: 1.5rem;
